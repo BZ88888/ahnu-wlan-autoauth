@@ -12,16 +12,13 @@ def get_ip():
 
 if __name__ == '__main__':
 
-    #以下5个变量，需要根据自己的情况进行修改，
-    #与MacroDroid中的几乎保持一致,
-    #仅对中文作修改，其他的字符（特别是前后的单引号）均不要修改！
-    login_IP = '改为校园网登录IP'
-    not_sign_in_title = '改为未登录状态的页面标题'
-    result_return = '改为登录成功页面的一些特征字符串'
+    login_IP = '100.64.4.10'
+    not_sign_in_title = '上网登录页'
+    result_return = 'result":1'
     sign_parameter = f'改为那一长串的登录参数'
-    signed_in_title = '改为已登录状态的页面标题'
+    signed_in_title = '用户信息页'
 
-    #以下4个变量，可根据自己的需要，决定是否修改
+    #以下4个变量，为链接提示的图头，可根据自己的需要，决定是否修改
     already_icon = None
     success_icon = None
     false_icon = None
